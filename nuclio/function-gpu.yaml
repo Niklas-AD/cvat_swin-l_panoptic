@@ -34,7 +34,7 @@ spec:
   eventTimeout: 60s
 
   build:
-    image: cvat/pth.facebookresearch.detectron2.mask2former
+    image: cvat/pth.facebookresearch.detectron2.mask2former.swinl
     baseImage: ubuntu:20.04
 
     directives:
